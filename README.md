@@ -14,7 +14,9 @@ A starter Python project scaffolded with **uv**.
 # 克隆仓库
 git clone git@github.com:yourusername/my_python_project.git
 cd my_python_project
-
+# On macOS and Linux.
+# install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 # 初始化项目（如果还未执行过）
 uv init
 # 安装虚拟环境
