@@ -13,21 +13,21 @@ A starter Python project scaffolded with **uv**.
 ```bash
 # 克隆仓库
 git clone git@github.com:yourusername/my_python_project.git
-cd my_python_project
+cd PyStart
 # On macOS and Linux.
 # install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
-# 初始化项目（如果还未执行过）
-uv init
-# 安装虚拟环境
-uv venv
-# 安装运行时依赖
-uv pip install -e .
 
-# 安装开发依赖
-uv pip install --dev
-
-
+# download your project form githubor gitlab
+git clone git@github.com:yourusername/Your_python_Project.git
+# write your python packages name in pyproject.toml
+dependencies = [
+  "numpy==1.26.4"  # The most stable and widely compatible version of NumPy
+  [packages name ]
+]
+cd [Your_python_Project]
+# run your python files
+uv run python [file_name]
 # 运行测试
 uv pytest
 

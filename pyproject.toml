@@ -1,17 +1,17 @@
 [project]
-name = "example"
-version = "0.1.0"
+name = "PyStart"
+version = "0.3.0"
 description = "A starter Python project using uv as package manager"
 authors = [{ name = "Felix", email = "felix.t.work@outlook.com" }]
-readme = "README.md"
+readme = "How_to_Start.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"
 dependencies = [
-  "numpy==1.26.4"  # 最稳定且广泛兼容的 NumPy 版本
+  "numpy==1.26.4"  # The most stable and widely compatible version of NumPy
 ]
 
 [tool.uv]
-# 可选，但 uv 会合并 fallback
+# Optional, but uv will be merged with fallback
 dev-dependencies = ["ruff>=0.0.261", "pytest>=7.0"]
 
 #[build-system]
