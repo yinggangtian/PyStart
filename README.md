@@ -1,4 +1,4 @@
-# example
+# PyStart
 
 A starter Python project scaffolded with **uv**.
 
